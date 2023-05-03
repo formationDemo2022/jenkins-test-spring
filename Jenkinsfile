@@ -26,6 +26,7 @@ pipeline {
       sh ' mvn clean compile'
      }
     }
+   
 //     stage('CheckStyle') {
 //      agent {
 //       docker {
@@ -271,7 +272,7 @@ pipeline {
 //        '''
 //      }
 //     }
-//    }
+   }
    } 
  }
 }
